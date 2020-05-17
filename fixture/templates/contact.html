@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block title %}Contact CCL{% endblock %}
+{% block css %}
+.center {
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+}
+{% endblock %}
+{% block body %}
+{% load static %}
+<div class="container">
+    <img src='{% static "/under_construction.png" %}' alt="Under Construction" class="center">
+</div>
+{% endblock %}
